@@ -1,0 +1,149 @@
+body{
+    box-sizing: border-box;
+    background: url(top_bg1.png) top center no-repeat;
+    background-size: 100%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    top: 52px;
+    
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    position: relative;
+    top: 52px;
+    height: 150px;
+    width: 100%;
+    background:url(foot_bg.png) center top;
+}
+
+
+.top {
+    
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.bott{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 700px;
+}
+.nav{
+    width: 100%;
+}
+nav{ 
+   margin: 0px; 
+}
+ul  {
+    padding: 0;
+    margin: 0;
+    display: table;
+    width: 100%;
+}
+
+li {
+    display: table-cell;
+   
+}
+li a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 8px 8px 8px;
+    color: white;
+}
+.ac{
+    background-image: url(rings.png) ;
+    background-position: right;
+    background-size: cover;
+}
+
+.li1 {
+    background-color: rgb(97, 7, 7);
+}
+.logo{
+    position: absolute ;
+    left: 0%;
+    top: 0%;
+    height: fit-content;
+    width: fit-content;
+    
+}
+.logo img {
+    height: 100px;
+    width: 100px;
+}
+.im1 img{
+    width: 650px;;
+    height: 250px;
+}
+.im1{
+
+    margin-bottom: 0px;
+    height: 250px;
+}
+.imgs img{
+    width:130px;
+    height: 120px;
+}
+
+.trac{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top_bot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.cub{
+    position: relative;
+    bottom: 6px;
+}
+
+.text {
+    width: 300px;
+}
+
+.text2{
+    margin: 5px;
+    align-self: center;
+    font-size: 12px;
+}
+
+.p1{
+    margin: 0px;
+}
+.p2, .p4{
+    font-weight:bold ;
+    font-size: 18px;
+    margin-top:3px ;
+    color: rgb(97, 7, 7)
+}
+.p3{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
