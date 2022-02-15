@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1 align="center">Inscription en licence</h1>
+<form>
+    <div style="border: solid 1px black; margin: 0px; text-align: center;">
+        <h6 style="margin-top: -7px; z-index: -5;">Information personnelles</h6>
+        <div style="margin: 3px;">
+            <label for="nom">Votre nom</label>
+            <input type="text" name="nom" placeholder="votre nom?">
+        </div>
+        <div style="margin: 3px;">
+            <label for="pre">Votre prénom</label>
+            <input type="text" name="pre" placeholder="votre Prénom?">
+        </div>
+       <div style="margin: 3px;">
+            <label for="age">Votre age</label>
+            <input type="number" name="age" placeholder="votre age?">
+       </div>
+       <div style="margin: 3px;">
+        <label for="add">Votre adresse</label>
+        <textarea name="add" cols="40" rows="10" placeholder="votre adresse?"></textarea>
+        </div>
+        <div style="margin: 3px;">
+            <label for="mail">E-Mail</label>
+            <input name="mail" type="email" required>
+        </div>
+        <div style="margin: 3px;">
+            <label for="mdp">Mot de passe</label>
+            <input type="password" name="mdp" required>
+        </div>
+        <div style="margin: 3px;">
+            <label for="mdp">Retapez votre mot de passe</label>
+            <input type="password" name="mdp" required>
+        </div>
+        <div style="margin: 3px;">
+            <label for="site">URL</label>
+            <input type="url" name="site">
+        </div>
+        <div style="margin: 3px;">
+            <label for="nais" >Date-naissance</label>
+            <input type="date" name="nais">
+        </div>
+    </div>
+    <br>
+    <div style="border: solid 1px black; margin: 0px; text-align: center;">
+        <h6 style="margin-top: -7px; z-index: -5;">Gesion des groupes et des options</h6>
+        <div style="margin: 3px;">
+            <label for="grp">Votre groupe: </label>
+            <input type="radio" name="grp">group1
+            <input type="radio" name="grp">group2
+            <input type="radio" name="grp">group3
+        </div>
+        <div style="margin: 3px;">
+            <label for="ce">Numéro carte d'etudiant</label>
+            <input type="number" name="ce" placeholder="Numéro carte d'etudiant">
+        </div>
+        <div style="margin: 3px;">
+            <label for="op">Choisissez les options que vous desirez
+            </label>
+            <select name="op" size="5">
+                <option value="j2ee">J2ee</option>
+                <option value="Android">Android</option>
+                <option value=".Net">.Net</option>
+                <option value="HTML5">HTML5</option>
+                <option value="Flex">Flex</option>
+            </select>
+        </div>
+        <div style="margin: 3px;">
+            <input type="text" pattern="[I][N][S][A][T][0-9]{4}" required>
+        </div>
+    </div>
+    <br>
+    <div align=center >
+        <input type="submit" value="valider">
+        <input type="reset" value="réinitialiser">
+    </div>
+</form>
+</body>
+</html>
