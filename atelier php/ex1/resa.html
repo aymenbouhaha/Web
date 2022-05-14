@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Restaurant</title>
+</head>
+<body>
+    <div class="form">
+        <form enctype="multipart/form-data" action="recap.php" method="post">
+            <div class="element nom">
+                <label for="nom">Nom</label>
+                <input type="text" name="nom" id="nom" placeholder="nom">
+            </div>
+            <div class="element prenom">
+                <label for="prenom">Prénom</label>
+                <input type="text" name="prenom" id="prenom" placeholder="prénom">
+            </div>
+            <div class="element nbr">
+                <label for="prenom">Nombre</label>
+                <input type="number" name="nombre" id="nombre" placeholder="nombre">
+            </div>
+            <div class="element adresse">
+                <label for="adresse">Adresse</label>
+                <textarea name="adresse" id="adresse" cols="30" rows="10" placeholder="adresse"></textarea>
+            </div>
+            <div class="element type">
+                <label for="type">Type</label>
+                <select name="type" id="type">
+                    <option value="viande">viande</option>
+                    <option value="poulet">poulet</option>
+                    <option value="escalope">escalope</option>
+                </select>
+            </div>
+            <div class="element ingred">
+                <div class="har">
+                    <label for="harissa">Harissa</label>
+                    <input type="checkbox" name="harissa" id="harissa">   
+                </div>
+                <div class="salad">
+                    <label for="salad">Salade</label>
+                    <input type="checkbox" name="salade" id="salad">   
+                </div>
+                <div class="mayo">
+                    <label for="mayo">Mayo</label>
+                    <input type="checkbox" name="mayonaise" id="mayo">
+                </div>
+            </div>
+            <div class="cin">
+                <label for="cin"></label>
+                <input type="file" name="cin" id="cin">
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
